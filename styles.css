@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+
+    min-height: 100vh;
+    overflow-x: hidden;
+    background-color: #23B5D3;
+  
+
+}
+
+/* Navigation Bar */
+
+.navbar{
+    display:flex; 
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+
+
+
+}
+
+.logo {
+    font-size: 24px;
+    color:#FDFFFF;
+}
+
+.navbar-links {
+    display:flex;
+    list-style: none;
+    color: #FDFFFF;
+    font-size: 18px;
+
+}
+
+.navbar-links li {
+    padding: 20px;
+}
+
+
+/* Card One */
+
+.card-wrapper {
+    margin: 100px 200px;
+   
+  
+   
+}
+
+.signup {
+    background-color:#071013;
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    color: #ffffff;
+    font-weight: bold;
+    margin-top: 10px;
+    border: none;
+   
+}
+
+.card-main {
+    font-size: 48px;
+    color: #ffffff;
+
+    
+}
+
+.card-secondary {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+img {
+    width: 430px;
+    height: 320px;
+    float: right;
+    margin-right: 100px;
+    margin-top: -210px;
+       
+}
+
+/* Card two */
+
+.cardtwo-wrapper {
+   background-color:#071013;
+   color: white;
+   margin-top: 250px;
+   padding: 200px;
+    color: #ffffff;
+    
+ 
+
+
+}
+
+.cardtwo-wrapper h1 {
+    display:flex;
+    font-size: 36px;
+    justify-content: center;
+    margin-top: -150px;
+   
+
+}
+
+
+
+
+.square-container {
+    display:flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+    margin-top: 20px;
+ 
+  
+
+}
+
+
+
+.paragraph {
+    display: inline-block;
+    margin-left: 50px;
+
+
+}
+
+/* Card Three */
+
+.cardthree-wrapper {
+    background-color: #75ABBC; 
+    padding: 200px;
+}
+
+.cardthree-wrapper p {
+    display:flex;
+    justify-content: center;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #ffffff;
+}
+   
+#reference {
+    display:flex;
+    font-weight: bold;
+    font-size: 20px;
+    font-style: normal;
+    justify-content: right;
+    margin-right: 200px;
+    
+}
+
+/* Card Four  */
+
+.cardfour-wrapper {
+    display:flex;
+    background-color:#DFE0E2;
+    padding: 150px;
+    justify-content: center;
+}
+
+.cardfour-box {
+    background-color: #071013;
+    width: 900px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.cardfour-box h1 {
+    color: white;
+    font-size: 20px;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+.cardfour-box p {
+    color: white;
+    margin-left: 150px;
+}
+
+.cardfour-box button {
+    float: right;
+    margin-right: 150px;
+    margin-top: -30px;
+    width: 100px;
+    height: 30px;
+    background-color: #23B5D3;
+    border:none;
+    outline: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+
+.card-footer {
+    display:flex;
+    padding: 55px;
+    background-color: #A2AEBB;
+    justify-content: center;
+}
+
+
+.card-footer h1 {
+    color: white;
+    font-size: 15px;
+    
+
+    
+}
